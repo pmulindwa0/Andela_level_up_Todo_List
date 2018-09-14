@@ -4,7 +4,7 @@ body {
 }
 body,
 input {
-    font-size: 1em;
+    font-size: .9em;
     color: #363639;
 }
 a {
@@ -62,9 +62,9 @@ a {
     color: black;
     padding: 3px 6px;
 }
-input[type=text] {
+input {
     width: 100%;
-    padding: 12px 20px;
+    padding: 8px 15px;
     margin: 8px 0;
     box-sizing: border-box;
 }
