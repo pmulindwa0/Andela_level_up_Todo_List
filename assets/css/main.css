@@ -1,0 +1,70 @@
+body {
+    background-color: #eceff0;
+    font-family: sans-serif;
+}
+body,
+input {
+    font-size: 1em;
+    color: #363639;
+}
+a {
+    text-decoration: none;
+}
+
+/* list */
+.list, 
+.container{
+    background-color: white;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+}
+
+.list .header {
+    font-family: cursive;
+    margin: 0 0 10px 0;
+}
+
+/* items */
+.items {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.items .item.done {
+    text-decoration: line-through;
+}
+.input{
+    width: 100%;
+    margin-bottom: 5px;
+}
+.submit{
+    background-color: lightgray;
+    color: black;
+    padding: 5px 10px;
+    margin-top: 5px;
+}
+.items li{
+    border: 0;
+    padding: 15px 0;
+}
+.item-add .input {
+    border: 0;
+    border-bottom: 1px dashed black;
+    padding: 15px 0;
+}
+.done-button,
+ .delete-button {
+    display: inline-block;
+    font-size: 0.8em;
+    background-color: lightgray;
+    color: black;
+    padding: 3px 6px;
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
