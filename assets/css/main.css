@@ -1,10 +1,10 @@
 body {
     background-color: #eceff0;
     font-family: sans-serif;
+    font-size: 1em;
 }
 body,
 input {
-    font-size: .9em;
     color: #363639;
 }
 a {
@@ -58,13 +58,19 @@ a {
  .delete-button {
     display: inline-block;
     font-size: 0.8em;
-    background-color: lightgray;
     color: black;
     padding: 3px 6px;
+}
+.done-button{
+    background-color: lightgray;
+}
+.delete-button{
+    background-color: red;
 }
 input {
     width: 100%;
     padding: 8px 15px;
     margin: 8px 0;
     box-sizing: border-box;
+    font-size: .9em;
 }
