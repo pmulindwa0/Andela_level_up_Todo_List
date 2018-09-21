@@ -9,6 +9,3 @@ def login(name, password):
         return True
     else:
         return False
-
-add_account("peter", "password")
-print(login("petero", "password"))

@@ -18,17 +18,21 @@ if __name__ == "__main__":
     selection = input("selection: ")
 
 
-    if selection == 1:
-        task = input("Enter task to create")
+    if selection is '1':
+        task = input("Enter task to create: ")
         create_task(task)
+        print(todo_list)
 
-    elif selection == 2:
-        task = input("Enter task to delete")
+    elif selection is "2":
+        task = input("Enter task to delete: ")
         delete_task(task)
+        print(todo_list)
 
-    elif selection == 3:
+    elif selection is '3':
         delete_all_tasks()
 
-    elif selection == 4:
-        task = input("Enter finished task")
+    elif selection is '4':
+        task = input("Enter finished task: ")
         mark_as_finished(task)
+        print(todo_list)
+   
